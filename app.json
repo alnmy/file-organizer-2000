@@ -1,0 +1,43 @@
+{
+    "name": "File organizer 2000",
+    "description": "Ephermeral File organiser",
+    "repository": "https://github.com/alnmy/file-organizer-2000",
+    "keywords": ["obsidian", "ai"],
+    "success_url": "/",
+    "stack": "container",
+    "formation": {
+        "web": {
+          "quantity": 1
+        }
+    },
+    "env": {
+        "OPENAI_API_KEY": {
+          "description": "OpenAI API Key",
+          "required": "true"
+        },
+        "MODEL_VISION": {
+          "description": "AI model to use for vision",
+          "required": "true"
+        },
+        "MODEL_TEXT": {
+          "description": "AI model to use for text",
+          "required": "true"
+        },
+        "MODEL_NAME": {
+          "description": "AI model",
+          "required": "true"
+        },
+        "MODEL_CLASSIFY": {
+          "description": "AI model to use for classifying",
+          "required": "true"
+        },
+        "MODEL_TAGGING": {
+          "description": "AI model to use for tagging",
+          "required": "true"
+        },
+        "MODEL_FOLDERS": {
+          "description": "AI model to use for folders",
+          "required": "true"
+        }
+    }
+}
