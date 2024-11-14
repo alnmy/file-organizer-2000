@@ -9,6 +9,7 @@ COPY * /app/
 
 # Install the application dependencies
 RUN npm install
+RUN npm install -g pnpm
 
 # Build the Next.js application
 RUN npm run build
